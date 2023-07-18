@@ -1,0 +1,24 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Counter",
+    "fields": {
+        "AAD": {
+            "caption": "Name",
+            "editor": "DynamicValue",
+            "name": "name",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}

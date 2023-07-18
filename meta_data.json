@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "media",
+        "1": "data (things)",
+        "2": "technical"
+    },
+    "description": "Do not install. This is just a quick demo for a Preact in Bubble plugin.",
+    "image": "//meta-l.cdn.bubble.io/f1689665112104x557500062883230500/symbol.png",
+    "license": "open_source",
+    "name": "Preact In Bubble Demo"
+}

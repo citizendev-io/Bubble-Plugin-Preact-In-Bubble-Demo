@@ -1,0 +1,14 @@
+{
+    "assets": {
+        "AAE": {
+            "name": "index.js",
+            "url": "//meta-l.cdn.bubble.io/f1689441287165x629643397629240400/index.js"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    },
+    "shared_keys": {
+    }
+}

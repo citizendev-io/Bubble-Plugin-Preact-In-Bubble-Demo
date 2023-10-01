@@ -9,8 +9,8 @@ export function useBubbleState<
 >(
   props: Bubble.Element.ElementProps<F, S, E>,
   stateName: N,
-  initialValue?: V,
-): [V | undefined, (a: V) => void] {
+  initialValue: V | undefined | null,
+): [V | null | undefined, (a: V) => void] {
   const [state, setState] = useState(initialValue);
 
   useEffect(() => {

@@ -3,6 +3,7 @@ import fs from "fs";
 import Handlebars from "handlebars";
 import path from "path";
 import vite, { InlineConfig } from "vite";
+import { fileURLToPath } from 'url';
 
 const COMPONENTS = {
   "custom-time-picker": {

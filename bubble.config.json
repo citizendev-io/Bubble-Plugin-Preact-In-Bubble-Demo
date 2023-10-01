@@ -1,0 +1,9 @@
+{
+  "components": {
+    "time-picker": {
+      "actions": ["create"]
+    }
+  },
+  "dist": "dist",
+  "folderToTransform": "dist"
+}

@@ -1007,6 +1007,31 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@citizendev/bubble-preact-base@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@citizendev/bubble-preact-base/-/bubble-preact-base-0.1.4.tgz#daaefcce8e6e944d7230c3e8748403a13c7512a4"
+  integrity sha512-zTF+TiZ89XEQ7tW+44++2MgXWOKubYZIQ54On9xdZm27ZJwFQn6WgrbQuJYrUOoyCIMSsJkKmGHuDGt/LXv0lQ==
+  dependencies:
+    "@citizendev/bubble-utils" "^0.1.1"
+    "@preact/preset-vite" "^2.5.0"
+    preact "^10.13.1"
+    preact-custom-element "^4.2.1"
+
+"@citizendev/bubble-utils@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@citizendev/bubble-utils/-/bubble-utils-0.1.1.tgz#ed785f8ec53120539902cdb5f71d90e68bb109b3"
+  integrity sha512-nB6jvyhgyBabyfi/g4yNdinC0O6BQXl5A37NALDsDWsqyEaoHRbfji7RYkFIH6ATb27KgSD3aJHov4eOyWS/Rw==
+  dependencies:
+    "@vitest/coverage-v8" "^0.34.5"
+    handlebars "^4.7.8"
+
+"@citizendev/vite-plugin-preact-bubble@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/@citizendev/vite-plugin-preact-bubble/-/vite-plugin-preact-bubble-0.0.8.tgz#4821a43796a506ee537bc27eeb70e0ba7d695e73"
+  integrity sha512-khcMzOmxNpJZaJI4LfngLPoN6AvjAjgegcKCO9e3SYFg1mNienIX3MvGYfPVlWlj3QBo3zT7neEQEiGvy9M4uQ==
+  dependencies:
+    "@prefresh/vite" "^2.4.1"
+
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
   resolved "https://registry.npmjs.org/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz"
@@ -1626,6 +1651,13 @@
     jest-matcher-utils "^27.0.0"
     pretty-format "^27.0.0"
 
+"@types/jquery@^3.5.20":
+  version "3.5.20"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.5.20.tgz#a23eece847591c7aaa47c52d6910052af473df4e"
+  integrity sha512-UI+EGhgYD4LdSZ8gaiziFqXYIIB38VQSDsnAs8jL/div7FGrzrShx4HKCykVzk3tPfiIlusdNP9Wi3G60LCF2Q==
+  dependencies:
+    "@types/sizzle" "*"
+
 "@types/jsdom@^20.0.0":
   version "20.0.1"
   resolved "https://registry.npmjs.org/@types/jsdom/-/jsdom-20.0.1.tgz"
@@ -1663,6 +1695,11 @@
   version "0.16.4"
   resolved "https://registry.npmjs.org/@types/scheduler/-/scheduler-0.16.4.tgz"
   integrity sha512-2L9ifAGl7wmXwP4v3pN4p2FLhD0O1qsJpvKmNin5VA8+UvNVb447UDaAEV6UdrkA+m/Xs58U1RFps44x6TFsVQ==
+
+"@types/sizzle@*":
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.4.tgz#cd6531924f60834fa4a1b8081f9eecf9bb1117f0"
+  integrity sha512-jA2llq2zNkg8HrALI7DtWzhALcVH0l7i89yhY3iBdOz6cBPeACoFq+fkQrjHA39t1hnSFOboZ7A/AY5MMZSlag==
 
 "@types/stack-utils@^2.0.0":
   version "2.0.1"

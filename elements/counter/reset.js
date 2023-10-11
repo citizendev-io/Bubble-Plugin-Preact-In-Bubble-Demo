@@ -1,1 +1,0 @@
-function(instance, context) {}

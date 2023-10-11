@@ -8,7 +8,5 @@
     "dependencies": {
         "plugin_api_version": 4,
         "use_jquery": true
-    },
-    "shared_keys": {
     }
 }

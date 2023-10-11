@@ -1,0 +1,24 @@
+<script>
+    function loadJS(url, module = false) {
+        let scriptEle = document.createElement("script");
+        scriptEle.setAttribute("src", url);
+        scriptEle.setAttribute("type", module ? "module" : "text/javascript" );
+        document.head.appendChild(scriptEle);
+    }
+    function loadCSS(url) {
+        let link = document.createElement("link");
+        link.rel  = 'stylesheet';
+	    link.type = 'text/css';
+    	link.href = url;
+	    link.media = 'all';
+        document.head.appendChild(link);
+    }
+    
+    
+    window.devServerURL = "_*_DEV_SERVER_URL_*_";
+    if (!!window.devServerURL) {
+        loadJS(window.devServerURL + "/index.umd.js");
+        loadCSS(window.devServerURL + "/style.css");
+    }
+    
+</script>
